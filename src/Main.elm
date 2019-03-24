@@ -364,7 +364,7 @@ view model =
                         }
                     , Element.text ". Zdrojový kód naleznete na "
                     , Element.link linkStyle
-                        { url = "https://twitter.com/Posledniskaut/status/1109755950729179136"
+                        { url = "https://github.com/kraklin/hoax-generator/"
                         , label = Element.text "GitHubu"
                         }
                     ]
