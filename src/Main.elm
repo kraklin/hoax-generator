@@ -347,7 +347,7 @@ view model =
             Element.column [ Element.spacing 10, Element.width Element.fill, Element.height Element.fill ]
                 [ Element.row [ Element.padding 20, Element.centerX ]
                     [ Element.image [ Element.width (Element.px 40), Element.height (Element.px 40) ] { src = "recycle_bin_full.png", description = "Hoax generator" }
-                    , Element.el (titleStyle ++ [ Element.heading 1, Element.centerX ]) <| Element.text "Genrátor hoaxů"
+                    , Element.el (titleStyle ++ [ Element.heading 1, Element.centerX ]) <| Element.text "Generátor hoaxů"
                     ]
                 , Element.el [ Element.heading 2, Element.centerX, Element.centerY ] <| Element.paragraph sentenceFontStyle [ Element.text <| sentenceToString model.sentence ]
                 , Input.button (buttonStyle ++ [ Element.alignBottom, Element.centerX ]) { onPress = Just GenerateRandomCombination, label = Element.text "VYGENEROVAT NOVÝ HOAX" }
